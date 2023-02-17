@@ -11,7 +11,15 @@
     "Ynode": "index.js"
   },
   "dependencies": {
-    "commander": "^10.0.0",
-    "download-git-repo": "^3.0.2"
+    "koa": "^2.13.4",
+    "koa-route": "^3.2.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "script": {
+    "dev": "nodemon app.js"
   }
 }
