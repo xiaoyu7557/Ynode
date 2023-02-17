@@ -1,2 +1,2 @@
 # Ynode
-node脚手架
+node+mongodb脚手架
